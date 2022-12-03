@@ -51,7 +51,7 @@ slli t1,t1,2
 
 add a4,a4,t0 # increment array pointer
 addi t5, x0, 0 # result to save
-addi t3, x0, 0 # row row number
+addi t3, x0, 0 # row number
 
 cycle:
 lw t6, 0(a4) # load value from array
