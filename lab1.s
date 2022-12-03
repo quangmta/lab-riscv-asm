@@ -31,10 +31,6 @@ addi a0, x0, 1 # print_int ecall
 lw a1, 0(a3)
 ecall
 
-addi a0, x0, 11 # print_char ecall
-addi a1, x0, 32
-ecall
-
 ret
 
 exit:
