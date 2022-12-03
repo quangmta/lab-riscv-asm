@@ -30,7 +30,6 @@ print:
 addi a0, x0, 1 # print_int ecall
 lw a1, 0(a3)
 ecall
-
 ret
 
 exit:
