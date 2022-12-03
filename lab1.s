@@ -55,5 +55,5 @@ add a4, a4, t1 # increment array pointer
 addi t3, t3, 1
 blt t3, t2, cycle
 
-sw t5, 0(a5) # save result to resulting array
+sw t5, 0(a5) # save result to result
 ret
